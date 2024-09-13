@@ -1,0 +1,4 @@
+.zshrc 에 flutter path가 잘 잡혀있어야 아래 명령문 사용가능
+flutter doctor
+flutter clean
+등등
