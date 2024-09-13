@@ -2,3 +2,11 @@
 flutter doctor
 flutter clean
 등등
+
+- 24.09.13 : p118(18%)
+    - Running Gradle task 'assembleDebug'…. 이 상태로 안드로이드시뮬레이터가 동작을 안함.
+    - 아래 블로그 글 참고해서 jdk 17설치하니까 해결됨.
+    - https://blog.naver.com/thdus3009/223428848767?trackingCode=rss
+    - Preparing "Install Android SDK Build-Tools 30.0.3 (revision: 30.0.3)" 이게 너무 오래걸림. ⇒ 이유는 모르지만, 끄고 flutter clean 하고 다시 run했더니 드디어 화면 뜸.
+    - 아이폰 연결하려고 하는데 개발자모드가 안보임.(ios 업데이트 되면서 없어졋다고함) 아래 포스팅 참고했으나 잘 해결은 안됨. 일단 실제기기 연결이 꼭 필요한게 아니니 넘어감.(특히 아이폰 필요없)
+    - https://velog.io/@bbahna/ios-developer-mode글 참고
