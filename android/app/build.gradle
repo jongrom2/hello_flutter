@@ -10,7 +10,7 @@ android {
 
     namespace = "com.example.hello_flutter"
 //    compileSdk = flutter.compileSdkVersion
-    compileSdk = 32
+    compileSdk = 34
     ndkVersion = flutter.ndkVersion
 
     compileOptions {
